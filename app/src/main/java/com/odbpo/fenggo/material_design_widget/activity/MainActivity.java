@@ -1,5 +1,6 @@
-package com.odbpo.fenggo.material_design_widget;
+package com.odbpo.fenggo.material_design_widget.activity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.odbpo.fenggo.material_design_widget.R;
 import com.odbpo.fenggo.material_design_widget.adapter.MyPagerAdapter;
 import com.odbpo.fenggo.material_design_widget.fragment.IndexFragment;
 
@@ -81,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.tv_setting:
                 Toast.makeText(this,"setting",Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this,ToolBarActivity.class));
                 break;
         }
     }
