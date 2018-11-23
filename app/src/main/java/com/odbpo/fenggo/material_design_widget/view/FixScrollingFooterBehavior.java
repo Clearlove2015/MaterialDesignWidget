@@ -6,6 +6,9 @@ import android.support.design.widget.CoordinatorLayout;
 import android.util.AttributeSet;
 import android.view.View;
 
+/**
+ * https://www.jianshu.com/p/bc56afbd88f2
+ */
 public class FixScrollingFooterBehavior extends AppBarLayout.ScrollingViewBehavior {
     private AppBarLayout appBarLayout;
 
