@@ -1,6 +1,7 @@
 package com.odbpo.fenggo.material_design_widget;
 
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.TabLayout;
@@ -48,8 +49,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setToolbar() {
-        collapsingToolbarLayout.setTitle("导航菜单");
-        collapsingToolbarLayout.setCollapsedTitleTextColor(Color.WHITE);
+        collapsingToolbarLayout.setTitle("导航栏");
+        collapsingToolbarLayout.setCollapsedTitleTypeface(Typeface.DEFAULT_BOLD);//设置字体加粗
+        collapsingToolbarLayout.setExpandedTitleTypeface(Typeface.DEFAULT_BOLD);
+        collapsingToolbarLayout.setCollapsedTitleTextColor(Color.WHITE);//设置字体颜色
         collapsingToolbarLayout.setExpandedTitleColor(Color.WHITE);
     }
 
