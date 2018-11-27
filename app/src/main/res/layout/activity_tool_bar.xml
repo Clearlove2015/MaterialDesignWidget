@@ -26,7 +26,7 @@
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="com.odbpo.fenggo.material_design_widget.view.FixScrollingFooterBehavior">
+        app:layout_behavior="com.odbpo.fenggo.material_design_widget.behavior.FixScrollingFooterBehavior">
 
         <TextView
             android:layout_width="match_parent"

@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.tv_setting:
                 Toast.makeText(this,"setting",Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(MainActivity.this,ToolBarActivity.class));
+                startActivity(new Intent(MainActivity.this,SampleActivity.class));
                 break;
         }
     }

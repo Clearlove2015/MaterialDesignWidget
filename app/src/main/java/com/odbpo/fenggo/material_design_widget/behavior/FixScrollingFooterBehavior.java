@@ -1,4 +1,4 @@
-package com.odbpo.fenggo.material_design_widget.view;
+package com.odbpo.fenggo.material_design_widget.behavior;
 
 import android.content.Context;
 import android.support.design.widget.AppBarLayout;

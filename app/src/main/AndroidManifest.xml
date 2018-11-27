@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.ToolBarActivity"></activity>
+        <activity android:name=".activity.ToolBarActivity" />
+        <activity android:name=".activity.CustomBehaviorActivity" />
+        <activity android:name=".activity.SampleActivity" />
+        <activity android:name=".activity.SyncScrollActivity"></activity>
     </application>
 
 </manifest>
